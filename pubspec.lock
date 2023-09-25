@@ -17,6 +17,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.13.0"
+  api_news:
+    dependency: "direct main"
+    description:
+      path: "packages/api_news"
+      relative: true
+    source: path
+    version: "1.0.0"
   archive:
     dependency: transitive
     description:
@@ -205,6 +212,13 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/core"
+      relative: true
+    source: path
+    version: "1.0.0"
+  core_entity:
+    dependency: "direct main"
+    description:
+      path: "packages/core_entity"
       relative: true
     source: path
     version: "1.0.0"

@@ -1,7 +1,7 @@
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
 import 'package:clean_news/features/daily_news/presentation/pages/article_detail/article_detail.dart';
 import 'package:clean_news/features/daily_news/presentation/pages/home/daily_news.dart';
 import 'package:clean_news/features/daily_news/presentation/pages/saved_article/saved_article.dart';
+import 'package:core_entity/news/local/article.dart';
 import 'package:flutter/material.dart';
 
 class AppRoutes {

@@ -1,7 +1,9 @@
-import 'package:clean_news/features/daily_news/data/models/article.dart';
+
 import 'package:core/constants/constants.dart';
+import 'package:core_entity/news/response/article_response.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
+
 part 'news_api_service.g.dart';
 
 @RestApi(baseUrl: newsAPIBaseURL)

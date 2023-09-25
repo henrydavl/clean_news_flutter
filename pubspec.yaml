@@ -32,7 +32,11 @@ dependencies:
     sdk: flutter
   # Modules
   core:
-    path: ./packages/core
+    path: packages/core
+  core_entity:
+    path: packages/core_entity
+  api_news:
+    path: packages/api_news
   feature_daily_news:
     path: packages/feature_daily_news
 

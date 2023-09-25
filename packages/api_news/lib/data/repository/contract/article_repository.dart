@@ -1,5 +1,6 @@
 import 'package:core/resources/data_state.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
+import 'package:core_entity/news/local/article.dart';
+
 
 abstract class ArticleRepository {
   // API methods

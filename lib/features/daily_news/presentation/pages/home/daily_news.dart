@@ -1,7 +1,7 @@
 import 'package:core/constants/constants.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
 import 'package:clean_news/features/daily_news/presentation/bloc/article/remote/remote_article_bloc.dart';
 import 'package:clean_news/features/daily_news/presentation/widgets/article_tile.dart';
+import 'package:core_entity/news/local/article.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

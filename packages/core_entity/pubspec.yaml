@@ -1,4 +1,4 @@
-name: feature_daily_news
+name: core_entity
 description: A new Flutter package project.
 version: 1.0.0
 publish_to: none
@@ -10,11 +10,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Module
+  #Module
   core:
     path: ../core
+
+  #comparing dart objects
+  equatable: ^2.0.5
+  #Database
+  floor: any
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  very_good_analysis: ^3.0.1
+  retrofit_generator: 7.0.8
+  floor_generator: 1.4.2
+  build_runner: 2.4.6

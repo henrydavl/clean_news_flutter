@@ -1,7 +1,7 @@
+import 'package:api_news/data/repository/contract/article_repository.dart';
 import 'package:core/resources/data_state.dart';
 import 'package:core/usecaes/usecase.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
-import 'package:clean_news/features/daily_news/domain/repository/article_repository.dart';
+import 'package:core_entity/news/local/article.dart';
 
 class GetArticleUseCase implements UseCase<DataState<List<ArticleEntity>>, void> {
   final ArticleRepository _articleRepository;

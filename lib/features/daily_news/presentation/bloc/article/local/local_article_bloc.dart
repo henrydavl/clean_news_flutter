@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:api_news/domain/get_saved_article.dart';
+import 'package:api_news/domain/remove_article.dart';
+import 'package:api_news/domain/save_article.dart';
 import 'package:bloc/bloc.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
-import 'package:clean_news/features/daily_news/domain/usecases/get_saved_article.dart';
-import 'package:clean_news/features/daily_news/domain/usecases/remove_article.dart';
-import 'package:clean_news/features/daily_news/domain/usecases/save_article.dart';
+import 'package:core_entity/news/local/article.dart';
 import 'package:equatable/equatable.dart';
 
 part 'local_article_event.dart';

@@ -1,6 +1,6 @@
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
 import 'package:clean_news/features/daily_news/presentation/bloc/article/local/local_article_bloc.dart';
 import 'package:clean_news/injection_container.dart';
+import 'package:core_entity/news/local/article.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ionicons/ionicons.dart';

@@ -1,6 +1,8 @@
 import 'package:core/usecaes/usecase.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
-import 'package:clean_news/features/daily_news/domain/repository/article_repository.dart';
+import 'package:core_entity/news/local/article.dart';
+
+import '../data/repository/contract/article_repository.dart';
+
 
 class RemoveArticleUseCase implements UseCase<void, ArticleEntity> {
   final ArticleRepository _articleRepository;

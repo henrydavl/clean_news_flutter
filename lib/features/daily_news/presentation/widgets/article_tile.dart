@@ -1,5 +1,5 @@
 import 'package:core/constants/constants.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
+import 'package:core_entity/news/local/article.dart';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';

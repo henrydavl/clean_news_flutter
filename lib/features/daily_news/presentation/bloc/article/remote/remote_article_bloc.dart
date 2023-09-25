@@ -1,8 +1,8 @@
 
+import 'package:api_news/domain/get_article.dart';
 import 'package:core/resources/data_state.dart';
+import 'package:core_entity/news/local/article.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
-import 'package:clean_news/features/daily_news/domain/usecases/get_article.dart';
 import 'package:equatable/equatable.dart';
 import 'package:dio/dio.dart';
 

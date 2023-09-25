@@ -1,13 +1,13 @@
 import 'dart:io';
 
-import 'package:clean_news/features/daily_news/data/data_sources/local/app_database.dart';
-import 'package:clean_news/features/daily_news/domain/entities/article.dart';
-import 'package:dio/dio.dart';
+import 'package:api_news/data/api/news_api_service.dart';
+import 'package:api_news/data/local/app_database.dart';
+import 'package:api_news/data/repository/contract/article_repository.dart';
 import 'package:core/constants/constants.dart';
 import 'package:core/resources/data_state.dart';
-import 'package:clean_news/features/daily_news/data/data_sources/remote/news_api_service.dart';
-import 'package:clean_news/features/daily_news/data/models/article.dart';
-import 'package:clean_news/features/daily_news/domain/repository/article_repository.dart';
+import 'package:core_entity/news/local/article.dart';
+import 'package:core_entity/news/response/article_response.dart';
+import 'package:dio/dio.dart';
 
 class ArticleRepositoryImpl implements ArticleRepository {
   final NewsApiService _newsApiService;
